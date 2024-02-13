@@ -8,11 +8,12 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
   <!-- The head element contains meta-information about the document -->
 </head>
-  <div> 
+  <div id="header section"> 
   <header>
     <!-- Header of the document; typically contains the main navigation and branding -->
     <h1>My Website</h1>
     <img src="haunterwalk.gif">
+     <input type="search">
     <hr>  <!-- hr adds a line-->
     <!-- The main title or logo of the website -->
     <nav>
@@ -27,29 +28,40 @@
         <!-- List item containing a link to the 'services' section of the page -->
         <li><a href="#contact">Contact</a></li>
         <!-- List item containing a link to the 'contact' section of the page -->
+      <li> <a href="https://www.linkedin.com/in/jjcmxsamascencio/" target="_blank">Visit my linkedin</a>
+</li>
     </ul>
     </nav>
   </header>
   </div>
   <hr> <!-- hr adds a line-->
 <body>
-  <div>
+  <div id="Main">
   <main>
     <!-- Main content of your website -->
     <p>Hello world this is located in the main section. </p>
+    <!--This creates a button with an alert pop up -->
+    <! -- Button with 'type' and 'onclick' attributes - ->
+    <button type="button" onclick="alert( 'Hi, you clicked me didnt you ew')"> Click me to get an alert pop up </button>
+    <input type="text" id="name" name="user name">
+    <input type="date" id="date">
+   <p> Do you like pokemon? </p> <input type="checkbox" id="checkbox">
+    <input type="color">
     <!-- Other main content goes here -->
   </main>
     </div>
   <hr>
-  <div>
+  <div id="footer">
 <Footer> 
   <nav> 
   <ul>
     <li> This website was created while I was at dae </li>
     <li> This is located in the footer tag </li> 
+    <li>  <a href="mailto:jjcmx.samascencio@gmail.com">Email Me</a></li>
   </ul>
 </nav>
 </Footer>
+
     </div>
   </body>
 </html>
